@@ -1,0 +1,424 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* login */
+.login-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.login-form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.login-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.account-button {
+  background-color: #2196f3;
+}
+
+.login-button:hover,
+.account-button:hover {
+  opacity: 0.9;
+}
+
+.help-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.help-link a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.help-link a:hover {
+  text-decoration: underline;
+}
+
+/* select game page */
+.game-selection-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-section {
+  padding: 20px;
+}
+
+.game-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.game-card {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.game-card h2 {
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* connect page */
+.connect4-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.connect4-board {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(7, 50px);
+  gap: 5px;
+  margin: 20px auto;
+}
+
+.connect4-cell {
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.connect4-cell:hover {
+  background-color: #e0e0e0;
+}
+
+.connect4-controls {
+  margin-top: 20px;
+}
+
+.play-again-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* wordle page */
+.wordle-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.wordle-grid {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.wordle-cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wordle-keyboard {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.wordle-key {
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wordle-key.used {
+  background-color: #d0d0d0;
+  cursor: not-allowed;
+}
+
+/* create account */
+.create-account-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.create-account-form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.create-account-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.create-account-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-account-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.create-account-button:hover {
+  opacity: 0.9;
+}
+
+/* header */
+.header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* leaderboard page */
+.leaderboard-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.leaderboard-table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.leaderboard-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.back-to-games {
+  margin-top: 20px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+/* settings page */
+.account-settings-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.settings-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.settings-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.settings-buttons button:first-child {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.settings-buttons button:first-child:hover {
+  background-color: #0056b3;
+}
+
+.settings-buttons button:last-child {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.settings-buttons button:last-child:hover {
+  background-color: #5a6268;
+}
+
+/* help page */
+.help-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.help-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.help-container h1 {
+  margin-bottom: 20px;
+}
+
+.help-container section {
+  margin-bottom: 20px;
+}
+
+.help-container ul {
+  margin-left: 20px;
+}
+
+.back-to-games {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
