@@ -1,6 +1,6 @@
 # 337_Final_Public
 
-https://csc337final.duckdns.org/ Hosted By DigitalOcean
+~~https://csc337final.duckdns.org/ Hosted By DigitalOcean~~ Currently unavailable
 
 This project was developed as part of the University of Arizona's CSC 337 Web Programming course group project with [Akhond](https://github.com/akhondsaif7) and [Wardah](https://github.com/wardahali7).
 
